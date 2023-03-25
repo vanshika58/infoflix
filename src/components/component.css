@@ -1,0 +1,14 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-video {
+  width: 320px;
+  height: 180px;
+}
+@media(max-width: 1600px) {
+  .component-video {
+    width: 60%;
+    height: 50vh;
+  }
+}

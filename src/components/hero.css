@@ -1,0 +1,50 @@
+.hero-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('/public/playground_assets/bees5.png');
+  background-position: center;
+}
+.hero-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  max-width: 450px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+@media(max-width: 1600px) {
+  .hero-hero {
+    max-width: 100%;
+    max-height: 100vh;
+    min-height: 80vh;
+  }
+  .hero-text {
+    color: var(--dl-color-gray-white);
+    font-size: 3rem;
+  }
+}
+@media(max-width: 767px) {
+  .hero-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .hero-hero {
+    height: 50vh;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .hero-text {
+    font-size: 2rem;
+  }
+}
