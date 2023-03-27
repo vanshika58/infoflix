@@ -21,7 +21,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-color: #D9D9D9;
+  /* background-color: #D9D9D9; */
   background-image: url("/public/playground_assets/bees4.png");
   background-position: bottom;
 }
@@ -37,7 +37,7 @@
   width: 457px;
   font-size: 3rem;
   max-width: 100%;
-  font-family: cursive;
+  font-family: Helvetica;
 }
 .home-text01 {
   color: #000000;
@@ -50,7 +50,7 @@
   text-overflow: white;
 }
 .home-button {
-  color: var(--dl-color-gray-white);
+  color: white;;
   font-style: normal;
   text-align: center;
   transition: 0.3s;
@@ -61,7 +61,8 @@
   border-radius: var(--dl-radius-radius-radius4);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
-  background-color: #000000;
+  background-color: #5140eb;
+  /* color: white; */
 }
 .home-button:hover {
   transform: scale(1.02);
@@ -104,7 +105,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: var(--dl-color-gray-black);
+  background-color: #5140eb;
 }
 .home-navlink4:hover {
   transform: scale(1.02);
