@@ -14,6 +14,7 @@ const Footer = (props) => {
           src={props.image_src}
           className="footer-image"
         />
+        <span>"A Government funded Initiative"</span>
         <nav className="footer-nav">
           <Link to="/about" className="footer-navlink">
             {props.text1}

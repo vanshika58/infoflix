@@ -9,7 +9,7 @@ const Stats = (props) => {
     <div className="stats-stats">
       <div className="stats-stat">
         <h1 className="stats-text">
-          <span>50</span>
+          <span>250</span>
           <span>+</span>
         </h1>
         <span className="stats-text03">{props.text}</span>
@@ -17,7 +17,7 @@ const Stats = (props) => {
       </div>
       <div className="stats-stat1">
         <h1 className="stats-text05">
-          <span>369</span>
+          <span>20+</span>
         </h1>
         <span className="stats-text07">{props.text2}</span>
         <span className="stats-text08">{props.text3}</span>
@@ -43,13 +43,13 @@ const Stats = (props) => {
 
 Stats.defaultProps = {
   text: 'Happy clients',
-  text1: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-  text2: 'Projects completed',
-  text3: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-  text4: 'Hours',
-  text5: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+  text1: 'Our clients who are using our honey.',
+  text2: 'Project implemented',
+  text3: 'Our number of projects that are live.',
+  text4: 'Family Tribal Integration',
+  text5: 'Number of tribal family which integrated our smart-hive',
   text6: 'Support',
-  text7: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+  text7: 'We are committed to provide full support for our product.',
 }
 
 Stats.propTypes = {

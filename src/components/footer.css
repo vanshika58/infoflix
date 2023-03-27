@@ -18,10 +18,16 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.footer-container span{
+  color: rgb(143 136 136);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
 .footer-image {
   width: 4rem;
   height: 8rem;
-  margin-bottom: var(--dl-space-space-twounits);
+  /* margin-bottom: var(--dl-space-space-twounits); */
 }
 .footer-nav {
   flex: 0 0 auto;

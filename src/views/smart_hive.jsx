@@ -9,6 +9,7 @@ import Stats from '../components/stats'
 import Component from '../components/component'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
+import Video from '../components/video'
 const Smart_hive = (props) => {
   return (
     <div className='container'>
@@ -19,6 +20,7 @@ const Smart_hive = (props) => {
       <Hero2></Hero2>
       <Hero3></Hero3>
       <Stats></Stats>
+      <Video></Video>
       <Footer/>
     </div>
   )

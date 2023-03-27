@@ -27,13 +27,13 @@
   background-color: var(--dl-color-gray-white);
 }
 .blog-post-card4-text {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-family: Georgia;
   font-weight: 800;
 }
 .blog-post-card4-text1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: 300;
 }
@@ -46,7 +46,8 @@
 }
 .blog-post-card4-text2 {
   color: var(--dl-color-gray-700);
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 .blog-post-card4-container1 {
   flex: 0 0 auto;
@@ -57,7 +58,7 @@
   justify-content: center;
 }
 .blog-post-card4-text3 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-style: normal;
   margin-top: 15px;
   transition: 0.3s;
@@ -90,14 +91,14 @@
 
 @media(max-width: 767px) {
   .blog-post-card4-text {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 @media(max-width: 479px) {
   .blog-post-card4-text {
     width: 103px;
     height: 29px;
-    font-size: 1.5px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 900;
   }

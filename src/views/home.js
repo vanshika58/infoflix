@@ -133,12 +133,10 @@ const Home = (props) => {
       <Nav/>
       <div className="home-hero">
         <div className="home-container03">
-          <h1 className="home-text">Who is Sal Mitra</h1>
+          <h1 className="home-text">About Sal Mitra</h1>
           <span className="home-text01">
             <span>
-            Salmitra is a company that specializes in honeybee farming,
-            producing high-quality honey using the latest technology and IoT
-            solutions.
+            Sal mitra is a winner of Government incubation program among many bright ideas from India. We are sustainable Agri-tech company trying to adress the environmental issues with a techno-social intervention. We specializes in first ever honeybee farming, producing high-quality honey using the latest technology and IoT solutions.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -153,7 +151,7 @@ const Home = (props) => {
               />
             </span>
             <span>
-              Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
+             
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
