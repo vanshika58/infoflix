@@ -97,29 +97,61 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-navlink4 {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: #5140eb;
-}
-.home-navlink4:hover {
-  transform: scale(1.02);
-}
+.home-navlink4, .home-navlink5  {
+  /* CSS */
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+  }
+  
+  .home-navlink4:hover {
+    background-color: #374151;
+    transform: scale(1.02);
+  }
+  
+  .home-navlink4, .home-navlink5 :focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .home-navlink4 {
+      padding: .75rem 1.5rem;
+    }
+  }
 .home-navlink5 {
-  transition: 0.3s;
+  background-color: #e2e6ec;
+  color: #000000;
+  /* transition: 0.3s; */
   margin-left: var(--dl-space-space-unit);
-  padding-top: var(--dl-space-space-unit);
+  /* padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
+  padding-bottom: var(--dl-space-space-unit); */
+  /* text-decoration: none; */
 }
 .home-navlink5:hover {
+  background-color: #cbd0d8;
   transform: scale(1.02);
 }
 .home-text11 {
