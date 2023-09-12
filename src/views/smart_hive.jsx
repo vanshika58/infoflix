@@ -20,7 +20,7 @@ const Smart_hive = (props) => {
       <Hero2></Hero2>
       <Hero3></Hero3>
       <Stats></Stats>
-      <Video></Video>
+      {/* <Video></Video> */}
       <Footer/>
     </div>
   )

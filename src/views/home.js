@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {FloatingWhatsApp} from "react-floating-whatsapp";
 import { Helmet } from 'react-helmet'
 
 import GalleryCard2 from '../components/gallery-card2'
@@ -164,6 +164,7 @@ const Home = (props) => {
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name2"></Footer>
+      <FloatingWhatsApp phoneNumber="918237184918" accountName="Sal Mitra" avatar={"/playground_assets/sal%20mitra1%20%5B1%5D-1500w.png"}  statusMessage="Typically replies within 5 minutes" notification={true} notificationSound={true}  />
     </div>
   )
 }
