@@ -73,7 +73,7 @@ Footer.defaultProps = {
   image_src: '/playground_assets/sal%20mitra1%20%5B1%5D-1500w.png',
   text: '© 2023 Sal Mitra, All Rights Reserved.',
   text2: 'Gallery\n',
-  text1: 'About',
+  text1: 'About'
 }
 
 Footer.propTypes = {

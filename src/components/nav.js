@@ -46,7 +46,12 @@ export default function Nav(props){
               Bees-box
             </a>
             
-            
+            <Link to="/research" className={props.research?"home-navlink1 active": "home-navlink1"}>
+              Research & consulting 
+            </Link>
+            <Link to="/documentry" className={props.documentry?"home-navlink1 active": "home-navlink1"}>
+              Documentary
+            </Link>
             <Link to="/contact" className={props.contact?"home-navlink1 active": "home-navlink1"}>
               Contact
             </Link>
@@ -102,6 +107,12 @@ export default function Nav(props){
               >
                 Bees-box
               </a>
+              <Link to="/research" className={props.research?"home-navlink3 active": "home-navlink3"}>
+              Research & consulting 
+            </Link>
+            <Link to="/documentry" className={props.documentry?"home-navlink3 active": "home-navlink3"}>
+              Documentary
+            </Link>
               <Link to="/contact" className={props.contact?"home-navlink3 active": "home-navlink3"}>
                 Contact
               </Link>
