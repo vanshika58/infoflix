@@ -2,12 +2,53 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
-
+import { useState } from 'react'
 import Footer from '../components/footer'
 import './contact.css'
 import Nav from '../components/nav'
 
 const Contact = (props) => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject,setSubject]=useState("");
+  const [message, setMessage] = useState("");
+  const [status,setStatus]=useState(false);
+
+  const handleSubmit =async (e) => {
+    e.preventDefault();
+    const res=await fetch("https://www.salmitra.com/api/v1/contact_us/",{
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" },
+      body:  new URLSearchParams({
+        'Email': email,
+        'Name': name,
+        'subject':subject,
+        'msg':message
+          }),
+    })
+    const response= await res.json();
+    if(res.status===200){
+    
+     if(response.status===200){
+      console.log("contact form submitted successfully :)");
+      setEmail("");
+      setName("");
+      setSubject("");
+      setMessage("");
+     setStatus(true);
+    }
+    } 
+    else if(response.status===400){
+    console.log("something went wrong!!")
+    }
+    else{
+      console.log("something went wrong!!")
+    }
+
+    // Handle form submission
+  };
+
+
   return (
     <div className="contact-container">
       <Helmet>
@@ -62,17 +103,21 @@ const Contact = (props) => {
                 required
                 autoFocus
                 placeholder="Name"
+                value={name}
+                onChange={(e)=>{setName(e.target.value)}}
                 autoComplete="name"
                 className="contact-textinput input"
               />
               <input
                 type="email"
                 name="email"
-                pattern="+@gmail.com"
+                // pattern="+@gmail.com"
                 required
                 autoFocus
-                maxlength="30"
-                minlength="5"
+                value={email}
+                onChange={(e)=>{setEmail(e.target.value)}}
+                maxLength="30"
+                minLength="5"
                 placeholder="Email"
                 autoComplete="off"
                 className="contact-input input"
@@ -81,6 +126,8 @@ const Contact = (props) => {
                 type="text"
                 autoFocus
                 placeholder="Subject"
+                value={subject}
+                onChange={(e)=>{setSubject(e.target.value)}}
                 autoComplete="off"
                 className="contact-textinput1 input"
               />
@@ -88,17 +135,21 @@ const Contact = (props) => {
                 cols="100"
                 name="msg"
                 rows="20"
+                value={message}
+                onChange={(e)=>{setMessage(e.target.value)}}
                 autoFocus
                 placeholder="Message"
                 className="contact-textarea textarea"
               ></textarea>
               <button
                 name="submit"
-                type="submit"
+                // type="submit"
+                onClick={(e)=>{handleSubmit(e)}}
                 className="contact-button button"
               >
                 Send
               </button>
+              {status?<div style={{'color':"green",'font-size':'25px','marginTop':'20px'}}>Thanks For contacting US! Our team will contact you soon :)</div>:""}
             </div>
           </div>
         </div>
