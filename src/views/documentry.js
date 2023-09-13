@@ -13,7 +13,7 @@ const Documentry = (props) => {
         <title>Documentary - Sal Mitra</title>
         <meta property="og:title" content="Documentary - Sal Mitra" />
       </Helmet>
-      <Nav about={true}/>
+      <Nav documentry={true}/>
       <div className="about-hero">
         <h1 className="about-text">Explore Sal Mitra by Documentary</h1>
       </div>

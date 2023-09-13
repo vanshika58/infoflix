@@ -89,10 +89,10 @@ export default function Nav(props){
               <Link to="/about" className={props.about?"home-navlink2 active": "home-navlink2"}>
                 About
               </Link>
-              <a href="#gallery" className={props.gallery?"home-link3 active": "home-link3"}>
+              <a href="/#gallery" className={props.gallery?"home-link3 active": "home-link3"}>
                 Gallery
               </a>
-              <a href="#products" className={props.products?"home-link3 active": "home-link3"}>
+              <a href="/#products" className={props.products?"home-link3 active": "home-link3"}>
                 Products
               </a>
               

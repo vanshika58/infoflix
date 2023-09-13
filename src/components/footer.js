@@ -19,12 +19,18 @@ const Footer = (props) => {
           <Link to="/about" className="footer-navlink">
             {props.text1}
           </Link>
-          <a href="#gallery" className="footer-link">
+          <a href="/#gallery" className="footer-link">
             {props.text2}
           </a>
-          <a href="#products" className="footer-link1">
+          <a href="/#products" className="footer-link1">
             {props.text3}
           </a>
+          <Link to="/documentry" className="footer-navlink1">
+            {props.text5}
+          </Link>
+          <Link to="/research" className="footer-navlink1">
+            {props.text6}
+          </Link>
           <Link to="/contact" className="footer-navlink1">
             {props.text4}
           </Link>
@@ -73,7 +79,9 @@ Footer.defaultProps = {
   image_src: '/playground_assets/sal%20mitra1%20%5B1%5D-1500w.png',
   text: '© 2023 Sal Mitra, All Rights Reserved.',
   text2: 'Gallery\n',
-  text1: 'About'
+  text1: 'About',
+  text5:"Documentary",
+  text6:"Research & consultant"
 }
 
 Footer.propTypes = {
