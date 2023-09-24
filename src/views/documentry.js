@@ -15,19 +15,23 @@ const Documentry = (props) => {
       </Helmet>
       <Nav documentry={true}/>
       <div className="about-hero">
-        <h1 className="about-text">Explore Sal Mitra by Documentary</h1>
+        <h1 className="about-text">Sal Mitra Chalchitra</h1>
       </div>
       <div className="about-hero1">
         <div className="about-container3">
-          <h1 className="about-text1">Who we are?</h1>
+          <h1 className="about-text1">Sal Mitra Chalchitra</h1>
           <span className="about-text2">
-          In a world grappling with environmental crises, a startup named "Honey Bees: Guardians of the Environment" is leading a quiet revolution. Their mission: to conserve honey bees, essential pollinators vital for our food system, and protect the environment. At the heart of their innovative approach lies the "BeeBox," a high-tech beehive integrated with sensors.
+          Sal Mitra - Van Chalchitra, where the rhythms of the jungle compose moments that are not just memorable but eternally unique; life on this planet, as whispered by Mother Nature, transcends the mightiest dynasties of Earth. Here, within the unseen and unheard depths of Central India's forests, lies a vibrant tapestry of narratives waiting to unfurl.
 
-            These sensor-enabled hives monitor bee colonies in real-time, tracking factors like hive temperature, humidity, and bee behavior. This technology offers unprecedented insights into the secret lives of bees, detecting threats early and ensuring optimal hive conditions.
+Our forests, ancient sentinels of time, hold within them the stories of generations past, narrators of an unbroken human civilization. Through epochs and eras, they've bestowed upon us the wealth of culture, indigenous wisdom, and the indomitable spirit that sustains us through the ever-shifting tides of our environment.
 
-            Beyond bee preservation, the startup champions sustainable agriculture. They collaborate with local farms, emphasizing bee-friendly practices and the importance of pollinators in food production.
+Sal Mitra, we, the torchbearers of this timeless legacy, stand as custodians of these profound chronicles. We are the chroniclers of essential events, the keepers of culture's sacred flame, and the storytellers who breathe life into these narratives. Our mission is clear: to unveil these treasures before humanity's gaze, to craft an ecosystem of knowledge where culture and its diaspora flourish and endure.
 
-            This documentary dives into their inspiring journey, showcasing the passionate team behind the startup and their dedication to safeguarding the environment. In a world where bees are disappearing at an alarming rate, "Honey Bees: Guardians of the Environment" offers a ray of hope, reminding us that innovation and commitment can be the keys to a sustainable future.
+In the whispers of rustling leaves and the songs of hidden creatures, we find the verses of an ancestral knowledge that transcends time. With each stroke of our metaphorical pen, we inscribe these sagas into the annals of history, ensuring that the wisdom of our forebears is not lost to the mists of forgetfulness.
+
+Join us on this journey, where the past meets the present, and the legacy of cultures long gone intertwines with the aspirations of the future. Together, let us conserve the essence of our heritage, the heartbeat of our traditions, and the living testament of our shared humanity.
+
+Sal Mitra - Van Chalchitra, where stories are the threads that bind us to our roots and illuminate the path ahead.
           </span>
           <div className="about-btn-group1"></div>
         </div>

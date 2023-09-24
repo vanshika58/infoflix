@@ -145,6 +145,7 @@ const Contact = (props) => {
                 name="submit"
                 type="submit"
                 className="btn btn-dark"
+                onClick={(e)=>{handleSubmit(e)}}
               >
                 Send
               </button>

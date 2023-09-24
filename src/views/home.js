@@ -23,7 +23,7 @@ const Home = (props) => {
           <h1 className="home-text">About Sal Mitra</h1>
           <span className="home-text01">
             <span>
-            Sal mitra is a winner of Government incubation program among many bright ideas from India. We are sustainable Agri-tech company trying to adress the environmental issues with a techno-social intervention. We specializes in first ever honeybee farming, producing high-quality honey using the latest technology and IoT solutions.
+            "Sal mitra is a winner of Government incubation program among many bright ideas from India. We are sustainable Agri-tech company trying to adress the environmental issues with a techno-social intervention. We specializes in first ever honeybee farming, producing high-quality honey using the latest technology and IoT solutions."
               <span
                 // dangerouslySetInnerHTML={{
                 //   __html: ' ',
