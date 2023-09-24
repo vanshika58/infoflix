@@ -20,7 +20,7 @@ const Contact = (props) => {
       </div>
       <div className="contact-container03">
         <div className="contact-container04">
-          <h1>Contact Info</h1>
+          <h1 >Contact Info</h1>
           <div className="contact-container05">
             <svg viewBox="0 0 1024 1024" className="contact-icon12">
               <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 516c-108.248 0-196-87.752-196-196s87.752-196 196-196 196 87.752 196 196-87.752 196-196 196zM388 320c0-68.483 55.517-124 124-124s124 55.517 124 124c0 68.483-55.517 124-124 124s-124-55.517-124-124z"></path>
@@ -92,10 +92,10 @@ const Contact = (props) => {
                 placeholder="Message"
                 className="contact-textarea textarea"
               ></textarea>
-              <button
+              <button 
                 name="submit"
                 type="submit"
-                className="contact-button button"
+                className="btn btn-dark"
               >
                 Send
               </button>

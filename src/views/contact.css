@@ -27,45 +27,45 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.contact-container03 {
+/* .contact-container03 {
   width: 100%;
   height: 748px;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-}
-.contact-container04 {
+} */
+/* .contact-container04 {
   width: 100%;
   height: 358px;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   /* justify-content: center; */
   /* margin-left: 35px;
   margin-right: 20px; */
-}
-.contact-container05 {
+/* } */
+/* .contact-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: 37px;
   display: flex;
   margin-top: 20px;
   align-items: flex-start;
-}
-.contact-icon12 {
+} */
+/* .contact-icon12 {
   width: 30px;
   height: 30px;
   align-self: center;
   margin-right: 10px;
-}
-.contact-text2 {
+} */
+/* .contact-text2 {
   margin-left: 10px;
 }
 .contact-text3 {
   margin-left: var(--dl-space-space-fourunits);
-}
-.contact-container06 {
+} */
+/* .contact-container06 {
   flex: 0 0 auto;
   width: 100%;
   height: 46px;
@@ -154,7 +154,146 @@
   transition: 0.3s;
   font-weight: 400;
   background-color: #5140eb;
+} */
+/* Style the contact info section */
+.contact-container04 {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
 }
+
+.contact-container04 h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Style the contact details */
+.contact-container05 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-icon12 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-text2 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.contact-text3 {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Style the phone section */
+.contact-container06 {
+  margin-top: 20px;
+}
+
+.contact-icon14 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-text4 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.contact-text5 {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Style the email section */
+.contact-container07 {
+  margin-top: 20px;
+}
+
+.contact-icon16 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-text6 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.contact-text7 {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Style the send message section */
+.contact-container08 {
+  margin-top: 20px;
+}
+
+.contact-container09 h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style the form inputs and button */
+.contact-container10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-textinput,
+.contact-input,
+.contact-textinput1,
+.contact-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.contact-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn {
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e5edf7;
+  color: #333;
+}
+
 
 /* @media(max-width: 1600px) {
   .contact-navbar-interactive {
