@@ -49,9 +49,11 @@
 .home-text {
   color: #000000;
   width: 457px;
-  font-size: 3rem;
+  font-size: 2.8rem;
   max-width: 100%;
+  font-weight: lighter;
   font-family: Helvetica;
+  /* margin-left: 70px; */
 }
 .home-text01 {
   background-color: #f3ec78;
@@ -67,10 +69,9 @@
   margin-top: var(--dl-space-space-threeunits);
   font-weight: 500;
   margin-bottom: var(--dl-space-space-threeunits);
-  text-overflow: white;
 }
 .home-button {
-  color: white;;
+  color: white;
   font-style: normal;
   text-align: center;
   transition: 0.3s;
@@ -175,6 +176,7 @@
   transform: scale(1.02);
 }
 .home-text11 {
+  text-align: justify;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-threeunits);
@@ -299,7 +301,7 @@
     text-align: center;
   }
   .home-text11 {
-    text-align: center;
+    /* text-align: center; */
     padding-left: var(--dl-space-space-fourunits);
   }
   .home-image1 {

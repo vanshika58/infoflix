@@ -51,7 +51,7 @@ const Hero1 = (props) => {
 
 Hero1.defaultProps = {
   image_src:
-    '/playground_assets/bees9.png',
+    '/playground_assets/honey.gif',
   image_alt: 'image',
   heading: 'What is smart-hive?',
 }

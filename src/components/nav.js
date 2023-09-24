@@ -34,8 +34,8 @@ export default function Nav(props){
             <a href="/#products" className={props.products?"home-link active": "home-link"}>
               Products
             </a>
-            <Link to="/contact" className={props.contact?"home-navlink1 active": "home-navlink1"}>
-              Contact
+            <Link to="/product/smart-hive" className={props.smart_hive?"home-navlink1 active": "home-navlink1"}>
+              Smart-Hive
             </Link>
             <a
               href="https://www.salmitra.com/hive"
@@ -45,8 +45,15 @@ export default function Nav(props){
             >
               Bees-box
             </a>
-            <Link to="/product/smart-hive" className={props.smart_hive?"home-navlink1 active": "home-navlink1"}>
-              Smart-Hive
+            
+            <Link to="/research" className={props.research?"home-navlink1 active": "home-navlink1"}>
+              Research & consulting 
+            </Link>
+            <Link to="/documentry" className={props.documentry?"home-navlink1 active": "home-navlink1"}>
+              Documentary
+            </Link>
+            <Link to="/contact" className={props.contact?"home-navlink1 active": "home-navlink1"}>
+              Contact
             </Link>
           </nav>
         </div>
@@ -82,15 +89,16 @@ export default function Nav(props){
               <Link to="/about" className={props.about?"home-navlink2 active": "home-navlink2"}>
                 About
               </Link>
-              <a href="#gallery" className={props.gallery?"home-link3 active": "home-link3"}>
+              <a href="/#gallery" className={props.gallery?"home-link3 active": "home-link3"}>
                 Gallery
               </a>
-              <a href="#products" className={props.products?"home-link3 active": "home-link3"}>
+              <a href="/#products" className={props.products?"home-link3 active": "home-link3"}>
                 Products
               </a>
-              <Link to="/contact" className={props.contact?"home-navlink3 active": "home-navlink3"}>
-                Contact
-              </Link>
+              
+              <Link to="/product/smart-hive" className={props.smart_hive?"home-navlink3 active": "home-navlink3"}>
+              Smart-Hive
+            </Link>
               <a
                 href="https://www.salmitra.com/hive"
                 target="_blank"
@@ -99,9 +107,16 @@ export default function Nav(props){
               >
                 Bees-box
               </a>
-              <Link to="/product/smart-hive" className={props.smart_hive?"home-navlink3 active": "home-navlink3"}>
-              Smart-Hive
+              <Link to="/research" className={props.research?"home-navlink3 active": "home-navlink3"}>
+              Research & consulting 
             </Link>
+            <Link to="/documentry" className={props.documentry?"home-navlink3 active": "home-navlink3"}>
+              Documentary
+            </Link>
+              <Link to="/contact" className={props.contact?"home-navlink3 active": "home-navlink3"}>
+                Contact
+              </Link>
+            
             </nav>
             <div className="home-container02"></div>
           </div>
