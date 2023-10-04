@@ -19,12 +19,22 @@
   background-image: url('/public/playground_assets/bees4.png');
   background-position: center;
 }
-.contact-text {
-  color: var(--dl-color-gray-white);
-  font-size: 3rem;
-  max-width: 450px;
-  margin-top: var(--dl-space-space-twounits);
+.bg-text{
+  /* background-color: rgb(0,0,0); Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
   text-align: center;
+  margin-top: var(--dl-space-space-twounits);
+  /* text-align: center; */
   margin-bottom: var(--dl-space-space-twounits);
 }
 /* .contact-container03 {

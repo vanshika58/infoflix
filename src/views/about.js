@@ -15,8 +15,8 @@ const About = (props) => {
       </Helmet>
       <Nav about={true}/>
       <div className="about-hero">
-        <h1 className="about-text">About Sal Mitra</h1>
       </div>
+      <div className='bg-text'><h1 className="about-text">About Sal Mitra</h1></div>
       <div className="about-hero1">
         <div className="about-container3">
           <h1 className="about-text1">Who we are?</h1>

@@ -6,9 +6,11 @@ import './hero.css'
 
 const Hero = (props) => {
   return (
+    <>
     <div className="hero-hero">
-      <h1 className="hero-text">{props.heading}</h1>
     </div>
+    <div className='bg-text'><h1 className="hero-text">{props.heading}</h1></div>
+    </>
   )
 }
 

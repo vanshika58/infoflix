@@ -19,15 +19,37 @@
   justify-content: center;
   background-image: url("/public/playground_assets/bees7.png ");
   background-position: center;
+  /* background-repeat: no-repeat; */
+  /* Add the blur effect */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
 }
-.about-text {
+.bg-text{
+  /* background-color: rgb(0,0,0); Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin-top: var(--dl-space-space-twounits);
+  /* text-align: center; */
+  margin-bottom: var(--dl-space-space-twounits);
+}
+/* .bg-text .about-text {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   max-width: 450px;
   margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-twounits);
-}
+  /* text-align: center; */
+  /* margin-bottom: var(--dl-space-space-twounits);
+} */ 
 .about-hero1 {
   width: 100%;
   display: flex;
@@ -51,6 +73,7 @@
 .about-text2 {
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
+  text-align: justify;
 }
 .about-btn-group1 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -108,7 +131,6 @@
   }
   .about-text {
     font-size: 2.5rem;
-    max-width: 100%;
   }
   .about-hero1 {
     padding-left: var(--dl-space-space-twounits);

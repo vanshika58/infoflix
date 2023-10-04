@@ -15,11 +15,10 @@ const Research = (props) => {
       </Helmet>
       <Nav research={true}/>
       <div className="about-hero">
-        <h1 className="about-text">Let's Talk about some Research and Consulting</h1>
       </div>
+       <div className='bg-text'><h1 className="about-text">Let's Talk about some Research and Consulting</h1></div>
       <div className="about-hero1">
         <div className="about-container3">
-          <h1 className="about-text1"> Researches</h1>
           <span className="about-text2">
           At Sal Mitra Research and Consulting, we stand at the vanguard of innovation, driven by our profound appreciation for the nexus of nature, science, and community. In our relentless pursuit of socio-economic betterment, we recognize research as the compass that guides our course. As we usher technology into the sphere of social transformation, we do so with an unwavering commitment to the principles of technology-induced implementation.
 

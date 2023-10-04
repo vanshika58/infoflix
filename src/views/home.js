@@ -139,27 +139,30 @@ const Home = (props) => {
           <BlogPostCard4
             label="Food &amp;Drink"
             rootClassName="rootClassName1"
-            description="Millets are a group of small-seeded cereal crops that have been cultivated for thousands of years. They are known for their high nutritional value, tolerance to drought, and versatility in cooking. Millets such as sorghum, finger millet, and pearl millet are staple foods in many countries, especially in Africa and Asia."
+            pro_name="Kodo"
+            description="Introduce your taste buds to the marvels of Kodo Millets, a powerhouse of nutrition carefully sourced from organic farms. Kodo millets (Paspalum scrobiculatum) are small-seeded, gluten-free grains that have been a culinary gem in traditional diets for centuries."
           ></BlogPostCard4>
           <div className="home-container11">
             <BlogPostCard4
               label="Food &amp;Drink"
-              pro_name="Milletes"
+              pro_name="IOT based beefarming - Honey"
               image_src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
               rootClassName="rootClassName2"
-              description="Millets are a group of small-seeded cereal crops that have been cultivated for thousands of years. They are known for their high nutritional value, tolerance to drought, and versatility in cooking. Millets such as sorghum, finger millet, and pearl millet are staple foods in many countries, especially in Africa and Asia."
+              description="Immerse yourself in the future of beekeeping with our IoT-based beekeeping solutions, meticulously designed to revolutionize the art and science of honey production."
             ></BlogPostCard4>
-            <BlogPostCard4
-              image_src="https://images.unsplash.com/photo-1625600243103-1dc6824c6c8a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
-              rootClassName="rootClassName3"
-              description="Honey is a versatile and highly valued product that has been used for thousands of years. It is made by bees collecting nectar from flowers and transforming it into a thick, sweet syrup through enzymes in their bodies. Honey is a natural sweetener that is widely recognized for its unique flavor and health benefits. It is rich in antioxidants, antibacterial properties, and essential vitamins and minerals. Honey is widely used in cooking and baking, as well as being a popular ingredient in health and beauty products."
+              <BlogPostCard4
+              label="Food &amp;Drink"
+              pro_name="Exotic Forest products"
+              image_src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
+              rootClassName="rootClassName2"
+              description="Step into a world of natural treasures with our collection of exotic forest products. Sourced responsibly and sustainably from lush forests around the globe, these offerings are a true celebration of Mother Nature's diversity and beauty."
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
             image_src="https://images.unsplash.com/photo-1473973266408-ed4e27abdd47?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
             rootClassName="rootClassName4"
-            pro_name="Millets"
-            description="Millets are a group of small-seeded cereal crops that have been cultivated for thousands of years. They are known for their high nutritional value, tolerance to drought, and versatility in cooking. Millets such as sorghum, finger millet, and pearl millet are staple foods in many countries, especially in Africa and Asia."
+            pro_name="Kutki(little Millets)"
+            description="Discover the goodness of Kutki Millets, a nutritious and versatile grain sourced directly from organic farms. Kutki millets, scientifically known as Paspalum scrobiculatum, are small-seeded, gluten-free millets that have been an integral part of traditional diets for generations."
           ></BlogPostCard4>
         </div>
       </div>

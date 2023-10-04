@@ -57,8 +57,8 @@ const Contact = (props) => {
       </Helmet>
     <Nav contact={true}/>
       <div className="contact-hero">
-        <h1 className="contact-text">Be the Part of change contact Us</h1>
       </div>
+      <div className='bg-text'> <h1 className="contact-text">Be the Part of change contact Us</h1></div>
       <div className="contact-container03">
         <div className="contact-container04">
           <h1 >Contact Info</h1>
