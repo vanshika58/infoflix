@@ -2,7 +2,6 @@
   "name": "infoflix",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://vanshika58.github.io/infoflix/",
   "dependencies": {
     "prop-types": "15.7.2",
     "react": "^17.0.2",
