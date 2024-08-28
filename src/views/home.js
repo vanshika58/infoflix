@@ -13,21 +13,19 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Sal Mitra</title>
-        <meta property="og:title" content="Sal Mitra" />
+        <title>Infoflix Services</title>
+        <meta property="og:title" content="Infoflix Services" />
       </Helmet>
 
       <Nav/>
       <div className="home-hero">
         <div className="home-container03">
-          <h1 className="home-text">About Sal Mitra</h1>
+          <h1 className="home-text">About-Infoflix Services</h1>
           <span className="home-text01">
             <span>
-            "Sal mitra is a winner of Government incubation program among many bright ideas from India. We are sustainable Agri-tech company trying to adress the environmental issues with a techno-social intervention. We specializes in first ever honeybee farming, producing high-quality honey using the latest technology and IoT solutions."
-              <span
-                // dangerouslySetInnerHTML={{
-                //   __html: ' ',
-                // }}
+            Infoflix Services is a leading provider of secure banking services, specializing in KYC (Know Your Customer) processes. With years of experience in the financial industry, we have honed our skills in ensuring that all customer information is entered accurately and efficiently, reducing errors and enhancing security.
+            <span
+                
               />
             </span>
             <span>
@@ -65,7 +63,7 @@ const Home = (props) => {
         <div className="home-container04">
           <h1 className="home-text06">
             <span>Want To know more about </span>
-            <span>Sal Mitra</span>
+            <span>Infoflix Services</span>
             <span>?</span>
           </h1>
           <h2 className="home-text10">
@@ -80,94 +78,94 @@ const Home = (props) => {
             </Link>
           </div>
           <span className="home-text11">
-            Salmitra is a company that specializes in honeybee farming,
-            producing high-quality honey using the latest technology and IoT
-            solutions. Their colonies are located in pristine areas to ensure
-            their honey is free from contaminants and pesticides. The company is
-            committed to sustainability and preserving the environment and also
-            provides educational opportunities to those interested in learning
-            about honeybee farming and the importance of bees in the ecosystem.
-            They are dedicated to providing customers with the best honey
-            possible, whether you&apos;re a honey connoisseur or simply looking
-            for a healthy and delicious alternative sweetener.
+          Welcome to Infoflix Services! At Infoflix Services , we prioritize security and accuracy in handling all your banking needs. Our expertise in financial services and meticulous attention to detail ensures that your KYC (Know Your Customer) process is seamless and compliant with all regulations. Trust us to protect your financial information with the highest level of integrity.
           </span>
         </div>
         <img
           alt="image"
-          src="/playground_assets/sal%20mitra1%20%5B1%5D-1500w.png"
+          src="/playground_assets/logo.jpg"
           loading="lazy"
           className="home-image1"
         />
       </div>
-      <div id="gallery" className="home-gallery">
-        <div className="home-container05">
-          <div className="home-container06">
-            <div className="home-container07">
-              <GalleryCard2 image_src="/Images/1.jpg"  
-              rootClassName="rootClassName2"></GalleryCard2>
-            </div>
-            <div className="home-container08">
-              <GalleryCard2
-                image_src="/Images/2.jpg"
-                rootClassName="rootClassName3"
-              ></GalleryCard2>
-            </div>
-          </div>
-          <div className="home-container09">
-            <GalleryCard2
-              image_src="/Images/3.jpg"
-              rootClassName="rootClassName"
-            ></GalleryCard2>
-          </div>
-        </div>
-        <div className="home-container10">
-          <GalleryCard2
-            image_src="/Images/4.jpg"
-            rootClassName="rootClassName4"
-          ></GalleryCard2>
-        </div>
-      </div>
+    
       <div id="products" className="home-features">
         <h1 className="home-text12">
-          <span>Explore our Products</span>
+          <span>Unlock the Tools for Financial Precision
+
+</span>
           <br></br>
         </h1>
         <span className="home-text15">
-        The company is committed to sustainability and preserving the environment and also provides educational opportunities to those interested in learning about honeybee farming and the importance of bees in the ecosystem.
+        <section id="products">
+  <h2>Enhance Your Financial Operations with [Company Name]</h2>
+  <p>
+    At [Company Name], we provide a comprehensive suite of products designed to ensure accuracy, security, and compliance in your financial operations. Our specialized tools cater to the unique demands of the banking industry, helping you streamline processes and protect your data.
+  </p>
+
+  <h3>Our Products</h3>
+  <ul>
+    <li>
+      <strong>KYC Management System:</strong> A powerful platform that automates and secures the KYC process, ensuring precise data capture and compliance with industry standards.
+    </li>
+    <li>
+      <strong>Data Validation Tools:</strong> Advanced software that meticulously checks and corrects discrepancies in financial records, reducing errors and enhancing accuracy.
+    </li>
+    <li>
+      <strong>Compliance Tracker:</strong> Stay current with the latest regulations and ensure your financial operations remain compliant with our real-time monitoring tool.
+    </li>
+    <li>
+      <strong>Secure Document Vault:</strong> A highly secure, encrypted storage solution for your sensitive financial documents, accessible only to authorized personnel.
+    </li>
+  </ul>
+
+  <h3>Why Choose Our Products?</h3>
+  <ul>
+    <li><strong>Cutting-edge Technology:</strong> Our tools leverage the latest technology for unmatched reliability and security.</li>
+    <li><strong>User-friendly Interfaces:</strong> Designed with ease of use in mind, our products are intuitive, even for non-technical staff.</li>
+    <li><strong>Proven Success:</strong> Trusted by leading financial institutions for their accuracy and efficiency.</li>
+  </ul>
+
+  <p>Start exploring today and discover how our products can transform your financial operations.</p>
+</section>
         </span>
+        
         <div className="home-blog">
           <BlogPostCard4
-            label="Food &amp;Drink"
+            label="How KYC Management Systems are Revolutionizing Financial Security"
             rootClassName="rootClassName1"
-            pro_name="Kodo"
-            description="Introduce your taste buds to the marvels of Kodo Millets, a powerhouse of nutrition carefully sourced from organic farms. Kodo millets (Paspalum scrobiculatum) are small-seeded, gluten-free grains that have been a culinary gem in traditional diets for centuries."
+            pro_name="How KYC Management Systems are Revolutionizing Financial Security"
+            image_src="/playground_assets/blog1.webp"
+
+            description="KYC management systems are crucial for financial institutions to verify customer identities and reduce fraud risk. These systems enhance security, ensure regulatory compliance, and build trust with customers."
           ></BlogPostCard4>
           <div className="home-container11">
             <BlogPostCard4
-              label="Food &amp;Drink"
-              pro_name="IOT based beefarming - Honey"
-              image_src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
+              label="The Importance of Data Validation Tools in Financial Accuracy"
+              pro_name="The Importance of Data Validation Tools in Financial Accuracy"
+              image_src="/playground_assets/blog2.webp"
               rootClassName="rootClassName2"
-              description="Immerse yourself in the future of beekeeping with our IoT-based beekeeping solutions, meticulously designed to revolutionize the art and science of honey production."
+              description="Data validation tools are essential for maintaining accurate financial data, reducing errors, and ensuring compliance with regulations. Accurate data leads to better decision-making and financial stability."
             ></BlogPostCard4>
               <BlogPostCard4
-              label="Food &amp;Drink"
-              pro_name="Exotic Forest products"
-              image_src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
+              label="Why Compliance Trackers Are Essential for Modern Banking"
+              pro_name="Why Compliance Trackers Are Essential for Modern Banking:"
+              image_src="/playground_assets/blog3.webp"
               rootClassName="rootClassName2"
-              description="Step into a world of natural treasures with our collection of exotic forest products. Sourced responsibly and sustainably from lush forests around the globe, these offerings are a true celebration of Mother Nature's diversity and beauty."
+              description="Compliance trackers help financial institutions stay updated with regulatory changes, reducing the risk of non-compliance. They streamline the management of regulations and protect institutions from potential penalties."
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
-            image_src="https://images.unsplash.com/photo-1473973266408-ed4e27abdd47?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGhvbmV5JTIwbWVsbGV0c3xlbnwwfHx8fDE2Nzc0MjM2OTY&amp;ixlib=rb-4.0.3&amp;w=1500"
+                      label="Secure Document Vaults: Protecting Your Most Sensitive Information"
+            image_src="/playground_assets/blog4.webp"
             rootClassName="rootClassName4"
-            pro_name="Kutki(little Millets)"
-            description="Discover the goodness of Kutki Millets, a nutritious and versatile grain sourced directly from organic farms. Kutki millets, scientifically known as Paspalum scrobiculatum, are small-seeded, gluten-free millets that have been an integral part of traditional diets for generations."
-          ></BlogPostCard4>
+            pro_name="Secure Document Vaults: Protecting Your Most Sensitive Information:"
+description="Secure document vaults provide encrypted storage for sensitive financial documents, ensuring that only authorized personnel can access them. These vaults are critical for protecting data against cyber threats and unauthorized access."
+></BlogPostCard4>
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name2"></Footer>
-      <FloatingWhatsApp phoneNumber="918237184918" accountName="Sal Mitra" avatar={"/playground_assets/sal%20mitra1%20%5B1%5D-1500w.png"}  statusMessage="Typically replies within 5 minutes" notification={true} notificationSound={true}  />
+      <FloatingWhatsApp phoneNumber="917566643334" accountName="Infoflix" avatar={"/playground_assets/logo.jpg"}  statusMessage="Typically replies within 5 minutes" notification={true} notificationSound={true}  />
     </div>
   )
 }

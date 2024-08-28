@@ -14,9 +14,7 @@ const Hero = (props) => {
   )
 }
 
-Hero.defaultProps = {
-  heading: 'Smart Hive',
-}
+
 
 Hero.propTypes = {
   heading: PropTypes.string,

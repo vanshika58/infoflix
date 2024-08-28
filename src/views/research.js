@@ -20,23 +20,32 @@ const Research = (props) => {
       <div className="about-hero1">
         <div className="about-container3">
           <span className="about-text2">
-          At Sal Mitra Research and Consulting, we stand at the vanguard of innovation, driven by our profound appreciation for the nexus of nature, science, and community. In our relentless pursuit of socio-economic betterment, we recognize research as the compass that guides our course. As we usher technology into the sphere of social transformation, we do so with an unwavering commitment to the principles of technology-induced implementation.
+          <div>
+    <h2>In the fast-paced and highly regulated world of banking and finance, accurate and reliable data management is paramount.</h2>
+    <p>Our Research and Consulting services are tailored to support organizations in navigating complex regulatory requirements, optimizing data entry processes, and ensuring compliance with industry standards.</p>
+    
+    <h3>Expertise in Banking KYC Data Management</h3>
+    <p>Our team of experts specializes in managing and verifying Know Your Customer (KYC) data for banking institutions. We understand the critical importance of accurate data entry, especially in fields such as customer identification, financial transactions, and compliance documentation. We provide thorough consulting services to help your organization streamline KYC processes, reducing errors and improving efficiency.</p>
 
-Our foundation is rooted in the conviction that modern intervention, steeped in scientific rigor, can coalesce harmoniously with indigenous wisdom, epitomizing the concept of "Appropriate Technology." Sal Mitra Research and Consulting is dedicated to unraveling the intricate tapestry of social, ecological, and technological interventions within geographical contexts. Moreover, we ardently seek collaboration with diverse experts to illuminate the interplay of environment, community, and behavior through the lens of socio-technology.
+    <h3>Customized Data Entry Solutions</h3>
+    <p>We offer customized solutions that adhere to specific instructions, such as ensuring proper case formatting, validating address details, and correcting common errors in data fields. Our approach is grounded in a deep understanding of the intricacies involved in handling banking data, from managing ZIP code formatting to ensuring accurate entry of sensitive information like income and occupation details.</p>
 
-With a distinguished cadre of senior advisors and a collaborative ethos with governmental bodies, we are cultivating an ecosystem of transformation underpinned by ethics and the judicious use of technology. This synergy enables us to forge novel pathways for positive change.
+    <h3>Process Optimization and Error Reduction</h3>
+    <p>With a focus on continuous improvement, our consulting services include detailed analysis and recommendations for optimizing your data entry processes. We help you identify and rectify common errors, such as spacing issues, missing data fields, or incorrect formatting, which can lead to costly compliance failures.</p>
 
-We invite you to engage with us in a collective endeavor to chart new horizons in research, implementation, and innovation. Our expertise and wealth of knowledge are at your disposal, ready to be harnessed for collaborative ventures that hold the promise of reshaping the socio-technological landscape.
+    <h3>Comprehensive Support and Training</h3>
+    <p>We not only provide expert consulting but also offer comprehensive training for your in-house teams. Our training programs are designed to equip your staff with the knowledge and skills necessary to maintain high standards of data accuracy and compliance. Additionally, we offer ongoing support to address any technical issues or process-related challenges that may arise.</p>
 
-Sal Mitra Research and Consulting extends an open invitation for your esteemed organization to embark on a journey of discovery and transformation with us. Together, we can craft a future where science, technology, and indigenous wisdom converge to create profound socio-economic impact.
+    <h3>Partner with Us</h3>
+    <p>Partner with us to ensure your organization’s data management processes are robust, compliant, and efficient. With our Research and Consulting services, you can focus on your core business while we handle the complexities of data accuracy and regulatory compliance.</p>
+</div>
 
-Please feel free to connect with us for any research study or implementation initiative. Your aspirations are our fuel, and together, we shall navigate the frontiers of possibility.
           </span>
           <div className="about-btn-group1"></div>
         </div>
         <img
           alt="image"
-          src="/playground_assets/sal%20mitra1%20%5B1%5D-400w.png"
+          src="/playground_assets/logo.jpg"
           className="about-image1"
         />
       </div>

@@ -52,13 +52,13 @@ const Contact = (props) => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>contact - Sal Mitra</title>
-        <meta property="og:title" content="contact - Sal Mitra" />
+        <title>contact - Infoflix Services</title>
+        <meta property="og:title" content="contact - Infoflix Services" />
       </Helmet>
     <Nav contact={true}/>
       <div className="contact-hero">
       </div>
-      <div className='bg-text'> <h1 className="contact-text">Be the Part of change contact Us</h1></div>
+      <div className='bg-text'> <h1 className="contact-text">Get in Touch for KYC Services</h1></div>
       <div className="contact-container03">
         <div className="contact-container04">
           <h1 >Contact Info</h1>
@@ -69,7 +69,7 @@ const Contact = (props) => {
             <h1 className="contact-text2">Address</h1>
           </div>
           <span className="contact-text3">
-            SAL MITRA LLP LG03 MANSAROVAR ARCADE TEGORE NAGAR NEAR SOS BALGRAM
+          C-9 Patel Nagar raisen road bhopal
             BHOPAL 462022.
           </span>
           <div className="contact-container06">
@@ -78,8 +78,12 @@ const Contact = (props) => {
             </svg>
             <h1 className="contact-text4">Phone</h1>
           </div>
-          <a href="tel:+911234567890" className="contact-text5">
-            +91 1234567890
+          <a href="tel:+917566643334" className="contact-text5">
+            +91 7566643334 ,
+          </a>
+          <a href="tel:+917974494029" className="contact-text5">
+            +91 79744 94029
+
           </a>
           <div className="contact-container07">
             <svg viewBox="0 0 1024 1024" className="contact-icon16">
@@ -88,10 +92,10 @@ const Contact = (props) => {
             <h1 className="contact-text6">Email</h1>
           </div>
           <a
-            href="mailto:salmitra850@gmail.com?subject=Hey let's talk"
+            href="mailto:infoflixbpo@gmail.com?subject=Hey let's talk"
             className="contact-text7"
           >
-            Salmitra850@gmail.com
+            infoflixbpo@gmail.com 
           </a>
         </div>
         <div className="contact-container08">
@@ -111,9 +115,8 @@ const Contact = (props) => {
               <input
                 type="email"
                 name="email"
-                // pattern="+@gmail.com"
                 required
-                autoFocus
+                autoFocus 
                 value={email}
                 onChange={(e)=>{setEmail(e.target.value)}}
                 maxLength="30"
@@ -149,7 +152,7 @@ const Contact = (props) => {
               >
                 Send
               </button>
-              {status?<div style={{'color':"green",'font-size':'25px','marginTop':'20px'}}>Thanks For contacting US! Our team will contact you soon :)</div>:""}
+              {status?<div style={{'color':"green",'font-size':'25px','marginTop':'20px'}}>Thanks For contacting US! Our team will contact you soon &#128522;</div>:""}
             </div>
           </div>
         </div>

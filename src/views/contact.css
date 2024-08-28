@@ -16,7 +16,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('/public/playground_assets/bees4.png');
+  background-image: url('/public/playground_assets/background.png');
   background-position: center;
 }
 .bg-text{

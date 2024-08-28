@@ -4,7 +4,7 @@
   padding: var(--dl-space-space-threeunits);
   position: relative;
   min-height: 80vh;
-  align-items: center;
+  align-items: center; 
   flex-direction: column;
   background-size: cover;
   justify-content: center;

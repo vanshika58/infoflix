@@ -11,11 +11,11 @@ const Footer = (props) => {
       <div className="footer-container">
         <img
           alt={props.image_alt}
-          src={props.image_src}
+          src="/playground_assets/logo.jpg"
           className="footer-image"
         />
-        <span>"A Government funded Initiative"</span>
-        <nav className="footer-nav">
+<span>Business Process Outsourcing Excellence</span>
+<nav className="footer-nav">
           <Link to="/about" className="footer-navlink">
             {props.text1}
           </Link>
@@ -77,7 +77,7 @@ Footer.defaultProps = {
   image_alt: 'logo',
   text3: 'Products',
   image_src: '/playground_assets/sal%20mitra1%20%5B1%5D-1500w.png',
-  text: '© 2023 Sal Mitra, All Rights Reserved.',
+  text: '© 2024 Infoflix services, All Rights Reserved.',
   text2: 'Gallery\n',
   text1: 'About',
   text5:"Documentary",
