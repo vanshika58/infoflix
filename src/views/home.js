@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {FloatingWhatsApp} from "react-floating-whatsapp";
 import { Helmet } from 'react-helmet'
 
 import GalleryCard2 from '../components/gallery-card2'
@@ -165,7 +164,7 @@ description="Secure document vaults provide encrypted storage for sensitive fina
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name2"></Footer>
-      <FloatingWhatsApp phoneNumber="917566643334" accountName="Infoflix" avatar={"/playground_assets/logo.jpg"}  statusMessage="Typically replies within 5 minutes" notification={true} notificationSound={true}  />
+      {/* <FloatingWhatsApp phoneNumber="917566643334" accountName="Infoflix" avatar={"/playground_assets/logo.jpg"}  statusMessage="Typically replies within 5 minutes" notification={true} notificationSound={true}  /> */}
     </div>
   )
 }
